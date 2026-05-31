@@ -1,0 +1,824 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="theme-toggle" />
+
+    <div class="container">
+      <!-- header section -->
+      <header>
+        <input type="checkbox" id="menu-toggle" />
+
+        <label for="menu-toggle" class="mob-icon">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skill">Skill</a>
+          <a href="#project">Project</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <label for="theme-toggle" class="toggle-btn">
+          <i class="fa-solid fa-moon dark-icon"></i>
+          <i class="fa-solid fa-sun light-icon"></i>
+        </label>
+      </header>
+
+      <!-- main section -->
+      <main id="home">
+        <!-- content -->
+        <div class="details fade-left-scroll">
+          <h3>
+            I am Mr.<span>M</span><span>a</span><span>r</span><span>i</span
+            ><span>a</span> <span>S</span><span>a</span><span>r</span
+            ><span>i</span><span>s</span><span>h</span><span>a</span
+            ><span>n</span>
+          </h3>
+          <h1>Front-End Developer</h1>
+          <p>
+            A passionate Front-End Developer dedicated to crafting modern,
+            responsive, and user-friendly websites and applications
+          </p>
+          <a class="butt" href="#contact">
+            <button>
+              Contact <i class="fa-solid fa-circle-arrow-right"></i>
+            </button>
+          </a>
+        </div>
+        <!-- imgage -->
+        <div class="main-img-box fade-right-scroll">
+          <img
+            src="./assets/Sarishan_court-removebg-preview.png"
+            alt="my image"
+          />
+        </div>
+        <img class="main_bg" src="./assets/main_bg.png" alt="main bg" />
+      </main>
+
+      <!-- About section -->
+      <section id="about">
+        <h1 class="fade-up-scroll">
+          About <i class="fa-solid fa-arrow-right-long"></i>
+        </h1>
+        <!-- about con -->
+        <div class="about-box">
+          <!-- gif file -->
+          <div class="main-gif-box fade-left-scroll">
+            <div class="dots"></div>
+            <img
+              class="main-gif"
+              src="./assets/video_gif.gif"
+              alt="video gif"
+            />
+          </div>
+          <!-- content -->
+          <div class="content-box fade-right-scroll">
+            <h2>
+              I AM AVAILABLE FOR <span>FRONT END DEVELOPER</span
+              ><img
+                class="hello-gif"
+                src="./assets/hello_gif.gif"
+                alt="hello gif"
+              />
+            </h2>
+            <p>
+              Hi, I'm Maria Sarishan, a passionate Front-End developer dedicated
+              to creating visually appealing and user-friendly websites. I
+              specialize in building responsive, modern, and interactive web
+              interfaces using technologies like HTML, CSS, JavaScript, and
+              React. I'm always looking to explore and learn new development and
+              design skills.
+            </p>
+            <div class="info-box">
+              <h4>15+</h4>
+              <p>PROJECT COMPLETED</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- skills section -->
+      <section id="skill" class="zoom-scroll">
+        <h1>Skills <i class="fa-solid fa-arrow-right-long"></i></h1>
+
+        <!-- radio buttons -->
+        <input type="radio" name="skill-tab" id="front" checked />
+        <input type="radio" name="skill-tab" id="back" />
+        <input type="radio" name="skill-tab" id="tools" />
+
+        <!-- tabs -->
+        <div class="tabs">
+          <label for="front">Front-End</label>
+          <label for="back">Back-End</label>
+          <label for="tools">Tools</label>
+        </div>
+
+        <!-- content area -->
+        <div class="content-wrapper">
+          <!-- front-end -->
+          <div class="content front-end-con">
+            <!-- Html -->
+            <div class="skill-card" style="--progress: 90%">
+              <span class="number">1</span>
+
+              <div class="corner"></div>
+
+              <div class="img-circle">
+                <img src="./assets/HTML.png" alt="html" />
+              </div>
+
+              <button>HTML</button>
+            </div>
+            <!-- Css -->
+            <div class="skill-card" style="--progress: 90%">
+              <span class="number">2</span>
+
+              <div class="corner"></div>
+
+              <div class="img-circle">
+                <img src="./assets/CSS.png" alt="css" />
+              </div>
+
+              <button>CSS</button>
+            </div>
+            <!-- Js -->
+            <div class="skill-card" style="--progress: 70%">
+              <span class="number">3</span>
+
+              <div class="corner"></div>
+
+              <div class="img-circle">
+                <img class="js-logo" src="./assets/JS.jpg" alt="js" />
+              </div>
+
+              <button>JavaScript</button>
+            </div>
+            <!-- react -->
+            <div class="skill-card" style="--progress: 70%">
+              <span class="number num4">4</span>
+
+              <div class="corner"></div>
+
+              <div class="img-circle">
+                <img src="./assets/react.png" alt="react" />
+              </div>
+
+              <button>React</button>
+            </div>
+            <!-- Bootstrap -->
+            <div class="skill-card" style="--progress: 80%">
+              <span class="number">5</span>
+
+              <div class="corner"></div>
+
+              <div class="img-circle">
+                <img src="./assets/bootstrap.png" alt="bootstrap" />
+              </div>
+
+              <button>Bootstrap</button>
+            </div>
+            <!-- Tailwind -->
+            <div class="skill-card" style="--progress: 80%">
+              <span class="number">6</span>
+
+              <div class="corner"></div>
+
+              <div class="img-circle">
+                <img src="./assets/tailwind.png" alt="tailwind" />
+              </div>
+
+              <button>Tailwind</button>
+            </div>
+          </div>
+          <!-- back-end -->
+          <div class="content back-end-con">
+            <!-- Node js -->
+            <div class="skill-card" style="--progress: 50%">
+              <span class="number">1</span>
+
+              <div class="corner"></div>
+
+              <div class="img-circle">
+                <img src="./assets/node.png" alt="nodejs" />
+              </div>
+
+              <button>Node Js</button>
+            </div>
+            <!-- Express js -->
+            <div class="skill-card" style="--progress: 40%">
+              <span class="number">2</span>
+
+              <div class="corner"></div>
+
+              <div class="img-circle">
+                <img src="./assets/express.png" alt="expressjs" />
+              </div>
+
+              <button>Express Js</button>
+            </div>
+            <!-- Mongo Db -->
+            <div class="skill-card" style="--progress: 70%">
+              <span class="number">3</span>
+
+              <div class="corner"></div>
+
+              <div class="img-circle">
+                <img src="./assets/mongodb.png" alt="mongodb" />
+              </div>
+
+              <button>Mongo DB</button>
+            </div>
+            <!-- My SQL -->
+            <div class="skill-card" style="--progress: 30%">
+              <span class="number num4">4</span>
+
+              <div class="corner"></div>
+
+              <div class="img-circle">
+                <img src="./assets/mysql.png" alt="mysql" />
+              </div>
+
+              <button>My SQL</button>
+            </div>
+          </div>
+          <!-- tools -->
+          <div class="content tools-con">
+            <!-- Git -->
+            <div class="skill-card" style="--progress: 30%">
+              <span class="number">1</span>
+
+              <div class="corner"></div>
+
+              <div class="img-circle">
+                <img src="./assets/git.png" alt="git" />
+              </div>
+
+              <button>Git</button>
+            </div>
+            <!-- Git hub -->
+            <div class="skill-card" style="--progress: 70%">
+              <span class="number">2</span>
+
+              <div class="corner"></div>
+
+              <div class="img-circle">
+                <img src="./assets/github.jpg" alt="github" />
+              </div>
+
+              <button>Git Hub</button>
+            </div>
+            <!-- VS code -->
+            <div class="skill-card" style="--progress: 90%">
+              <span class="number">3</span>
+
+              <div class="corner"></div>
+
+              <div class="img-circle">
+                <img src="./assets/vscode.png" alt="vscode" />
+              </div>
+
+              <button>VS Code</button>
+            </div>
+            <!-- Figma -->
+            <div class="skill-card" style="--progress: 60%">
+              <span class="number num4">4</span>
+
+              <div class="corner"></div>
+
+              <div class="img-circle">
+                <img src="./assets/figma.png" alt="figma" />
+              </div>
+
+              <button>Figma</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- project section -->
+      <section id="project">
+        <h1 class="zoom-scroll">Projects</h1>
+
+        <!-- project card 1 -->
+        <div class="project-card-sec fade-left-scroll">
+          <div
+            class="project-card"
+            style="--project-img: url(&quot;./assets/HandCricketGame.png&quot;)"
+          >
+            <div class="project-side">
+              <div class="side-image"></div>
+
+              <div class="side-content">
+                <span>PROJECT 1</span>
+              </div>
+            </div>
+
+            <!-- FRONT -->
+
+            <div class="project-front">
+              <div class="front-image"></div>
+
+              <div class="front-content">Hand Cricket Game</div>
+            </div>
+
+            <!-- TOP -->
+
+            <div class="project-top"></div>
+          </div>
+          <div class="project-txt">
+            <h3>Project : Hand Cricket Game</h3>
+            <p>
+              HandCricket Game is a fun and interactive browser-based cricket
+              game inspired by the classic hand cricket played among friends.
+              Players compete by selecting runs, with the game handling score
+              calculation, player turns, and match results dynamically. Built
+              using HTML, CSS, and JavaScript, the project focuses on DOM
+              manipulation, game logic, user interaction, and responsive UI
+              design to create an engaging gaming experience.
+            </p>
+            <a
+              target="_blank"
+              href="https://sarishan3.github.io/HandCricketGame/"
+              ><i class="fa-solid fa-link"></i> Link</a
+            >
+          </div>
+        </div>
+        <!-- project card 2 -->
+        <div class="project-card-sec fade-right-scroll">
+          <div
+            class="project-card"
+            style="
+              --project-img: url(&quot;./assets/BubbleTeaWebpage.png&quot;);
+            "
+          >
+            <div class="project-side">
+              <div class="side-image"></div>
+
+              <div class="side-content">
+                <span>PROJECT 2</span>
+              </div>
+            </div>
+
+            <!-- FRONT -->
+
+            <div class="project-front">
+              <div class="front-image"></div>
+
+              <div class="front-content">Bubble Tea Webpage</div>
+            </div>
+
+            <!-- TOP -->
+
+            <div class="project-top"></div>
+          </div>
+          <div class="project-txt">
+            <h3>Project : Bubble Tea Webpage</h3>
+            <p>
+              Bubble Tea Webpage is a modern and visually appealing product
+              showcase website designed for a bubble tea brand. The project
+              features a clean layout, attractive UI elements, smooth
+              navigation, and engaging product presentation to create an
+              enjoyable browsing experience. Built using HTML and CSS it
+              demonstrates skills in responsive web design, creative styling,
+              and interactive front-end development.
+            </p>
+            <a
+              target="_blank"
+              href="https://sarishan3.github.io/BubbleTeaWebpage/"
+              ><i class="fa-solid fa-link"></i> Link</a
+            >
+          </div>
+        </div>
+        <!-- project card 3 -->
+        <div class="project-card-sec fade-left-scroll">
+          <div
+            class="project-card"
+            style="--project-img: url(&quot;./assets/HospitalWebpage.png&quot;)"
+          >
+            <div class="project-side">
+              <div class="side-image"></div>
+
+              <div class="side-content">
+                <span>PROJECT 3</span>
+              </div>
+            </div>
+
+            <!-- FRONT -->
+
+            <div class="project-front">
+              <div class="front-image"></div>
+
+              <div class="front-content">Hospital Webpage</div>
+            </div>
+
+            <!-- TOP -->
+
+            <div class="project-top"></div>
+          </div>
+          <div class="project-txt">
+            <h3>Project : Hospital Webpage</h3>
+            <p>
+              Hospital Webpage is a professional and responsive healthcare
+              website designed to provide patients with easy access to medical
+              information and services. The project includes sections for
+              hospital details, doctors, departments, services, appointments,
+              and contact information, all presented through a clean and
+              user-friendly interface. Built using HTML, and Css it demonstrates
+              responsive design, structured layouts, and modern front-end
+              development practices.
+            </p>
+            <a
+              target="_blank"
+              href="https://sarishan3.github.io/HospitalWebpage/"
+              ><i class="fa-solid fa-link"></i> Link</a
+            >
+          </div>
+        </div>
+        <!-- project card 4 -->
+        <div class="project-card-sec fade-right-scroll">
+          <div
+            class="project-card"
+            style="--project-img: url(&quot;./assets/PlantWebpage.png&quot;)"
+          >
+            <div class="project-side">
+              <div class="side-image"></div>
+
+              <div class="side-content">
+                <span>PROJECT 4</span>
+              </div>
+            </div>
+
+            <!-- FRONT -->
+
+            <div class="project-front">
+              <div class="front-image"></div>
+
+              <div class="front-content">Plant Webpage</div>
+            </div>
+
+            <!-- TOP -->
+
+            <div class="project-top"></div>
+          </div>
+          <div class="project-txt">
+            <h3>Project : Plant Webpage</h3>
+            <p>
+              Plants Webpage is a modern and responsive landing page designed
+              for showcasing plants, gardening products, and nature-inspired
+              content. The website features a clean layout, attractive visuals,
+              smooth navigation, and engaging scroll-based animations to enhance
+              the browsing experience. Built primarily with Tailwind CSS, along
+              with HTML and CSS for custom interactions and scroll effects, the
+              project demonstrates responsive design, utility-first styling, and
+              interactive front-end development.
+            </p>
+            <a target="_blank" href="https://sarishan3.github.io/PlantWebpage/"
+              ><i class="fa-solid fa-link"></i> Link</a
+            >
+          </div>
+        </div>
+        <!-- project card 5 -->
+        <div class="project-card-sec fade-left-scroll">
+          <div
+            class="project-card"
+            style="--project-img: url(&quot;./assets/Portfolio.png&quot;)"
+          >
+            <div class="project-side">
+              <div class="side-image"></div>
+
+              <div class="side-content">
+                <span>PROJECT 5</span>
+              </div>
+            </div>
+
+            <!-- FRONT -->
+
+            <div class="project-front">
+              <div class="front-image"></div>
+
+              <div class="front-content">Portfolio</div>
+            </div>
+
+            <!-- TOP -->
+
+            <div class="project-top"></div>
+          </div>
+          <div class="project-txt">
+            <h3>Project : Portfolio</h3>
+            <p>
+              Portfolio is a modern and responsive website designed to showcase
+              a professional portfolio of work. The website features a clean
+              layout, attractive visuals, smooth navigation, and engaging scroll-based animations to enhance the browsing experience. Built primarily with Tailwind CSS, along with HTML and CSS for custom interactions and scroll effects, the project demonstrates responsive design, utility-first styling, and interactive front-end development.
+            </p>
+            <a target="_blank" href="https://sarishan3.github.io/Portfolio/"
+              ><i class="fa-solid fa-link"></i> Link</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- education section -->
+      <section id="education">
+        <h1 class="zoom-scroll">Education</h1>
+
+        <div class="education-wrapper">
+          <!-- overall cube -->
+          <div class="cube-wrapper zoom-scroll">
+            <div class="cube">
+              <!-- front side -->
+              <div class="face front">
+                <span></span><span></span><span></span> <span></span
+                ><span></span><span></span> <span></span><span></span
+                ><span></span>
+              </div>
+
+              <!-- back side -->
+              <div class="face back">
+                <span></span><span></span><span></span> <span></span
+                ><span></span><span></span> <span></span><span></span
+                ><span></span>
+              </div>
+
+              <!-- right side -->
+              <div class="face right">
+                <span></span><span></span><span></span> <span></span
+                ><span></span><span></span> <span></span><span></span
+                ><span></span>
+              </div>
+
+              <!-- left side -->
+              <div class="face left">
+                <span></span><span></span><span></span> <span></span
+                ><span></span><span></span> <span></span><span></span
+                ><span></span>
+              </div>
+
+              <!-- top side -->
+              <div class="face top">
+                <span></span><span></span><span></span> <span></span
+                ><span></span><span></span> <span></span><span></span
+                ><span></span>
+              </div>
+
+              <!-- bottom side -->
+              <div class="face bottom">
+                <span></span><span></span><span></span> <span></span
+                ><span></span><span></span> <span></span><span></span
+                ><span></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- education content -->
+          <div class="education-content fade-up-scroll">
+            <!-- line -->
+            <div class="line"></div>
+
+            <!-- education 1 -->
+            <div class="edu-item">
+              <div class="year">2019-2022</div>
+
+              <div class="dot"></div>
+
+              <div class="edu-card">
+                <div>
+                  <h3>MS University</h3>
+                  <p>BBA</p>
+                </div>
+
+                <span>G.P.A - 69%</span>
+              </div>
+            </div>
+
+            <!-- education 2 -->
+            <div class="edu-item">
+              <div class="year">2017-2019</div>
+
+              <div class="dot"></div>
+
+              <div class="edu-card">
+                <div>
+                  <h3>GOVT School</h3>
+                  <p>12th</p>
+                </div>
+
+                <span>G.P.A - 65%</span>
+              </div>
+            </div>
+
+            <!-- education 3 -->
+            <div class="edu-item">
+              <div class="year">2016-2017</div>
+
+              <div class="dot"></div>
+
+              <div class="edu-card">
+                <div>
+                  <h3>St Joseph School</h3>
+                  <p>10th</p>
+                </div>
+
+                <span>G.P.A - 70%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section id="contact">
+        <h1 class="zoom-scroll">
+          Contact Me <img src="./assets/call_png.png" alt="call icon" />
+        </h1>
+        <div class="contact-wrapper">
+          <div class="contact-card fade-left-scroll">
+            <img src="./assets/contact_img.png" alt="contact image" />
+          </div>
+          <form class="fade-right-scroll">
+            <h3>Let's work together</h3>
+            <input type="text" name="user-name" placeholder="Your Name" />
+            <input type="email" name="user-email" placeholder="Your Email" />
+            <textarea name="user-message" placeholder="Your Message"></textarea>
+            <button>Send Message</button>
+
+            <!-- social icons -->
+            <div class="social-icons-box">
+              <!-- linked in -->
+              <div
+                class="outer-icon-box"
+                style="
+                  --outer-gradient: linear-gradient(
+                    180deg,
+                    var(--bg) 65.57%,
+                    #2c7cb2 100%
+                  );
+                  --inner-gradient: linear-gradient(
+                    179.8deg,
+                    var(--bg) 42.21%,
+                    #306b98 84.03%,
+                    #3cabef 99.82%
+                  );
+                "
+              >
+                <div class="icon-box">
+                  <img
+                    class="social-icon"
+                    src="./assets/linkedin.png"
+                    alt="linkedin icon"
+                  />
+                  <img src="./assets/linkedin_hand.png" alt="linkedin_hand" />
+                </div>
+              </div>
+              <!-- git hub -->
+              <div
+                class="outer-icon-box"
+                style="
+                  --outer-gradient: linear-gradient(
+                    180deg,
+                    var(--bg) 65.57%,
+                    #a0b22c 100%
+                  );
+                  --inner-gradient: linear-gradient(
+                    179.8deg,
+                    var(--bg) 42.21%,
+                    #687132 84.03%,
+                    #c7ef16 99.82%
+                  );
+                "
+              >
+                <div class="icon-box">
+                  <img
+                    class="social-icon"
+                    src="./assets/github.jpg"
+                    alt="linkedin icon"
+                  />
+                  <img src="./assets/github_hand.png" alt="github_hand" />
+                </div>
+              </div>
+              <!-- twitter -->
+              <div
+                class="outer-icon-box"
+                style="
+                  --outer-gradient: linear-gradient(
+                    180deg,
+                    var(--bg) 65.57%,
+                    #25d3c8 100%
+                  );
+                  --inner-gradient: linear-gradient(
+                    179.8deg,
+                    var(--bg) 42.21%,
+                    #76b7b8 84.03%,
+                    #338a77 99.82%
+                  );
+                "
+              >
+                <div class="icon-box">
+                  <img
+                    class="social-icon"
+                    src="./assets/twitter.jpg"
+                    alt="linkedin icon"
+                  />
+                  <img src="./assets/X_hand.png" alt="twitter_hand" />
+                </div>
+              </div>
+              <!-- gmail -->
+              <div
+                class="outer-icon-box"
+                style="
+                  --outer-gradient: linear-gradient(
+                    180deg,
+                    var(--bg) 65.57%,
+                    #409327 100%
+                  );
+                  --inner-gradient: linear-gradient(
+                    179.8deg,
+                    var(--bg) 42.21%,
+                    #398e4e 84.03%,
+                    #31e23f 99.82%
+                  );
+                "
+              >
+                <div class="icon-box">
+                  <img
+                    class="social-icon"
+                    src="./assets/gmail.png"
+                    alt="linkedin icon"
+                  />
+                  <img src="./assets/gmail_hand.png" alt="gmail_hand" />
+                </div>
+              </div>
+              <!-- insta -->
+              <div
+                class="outer-icon-box"
+                style="
+                  --outer-gradient: linear-gradient(
+                    180deg,
+                    var(--bg) 65.57%,
+                    #892793 100%
+                  );
+                  --inner-gradient: linear-gradient(
+                    179.8deg,
+                    var(--bg) 42.21%,
+                    #af30bb 84.03%,
+                    #bf3b95 99.82%
+                  );
+                "
+              >
+                <div class="icon-box">
+                  <img
+                    class="social-icon"
+                    src="./assets/instagram.png"
+                    alt="linkedin icon"
+                  />
+                  <img src="./assets/insta_hand.png" alt="insta_hand" />
+                </div>
+              </div>
+              <!-- fb -->
+              <div
+                class="outer-icon-box"
+                style="
+                  --outer-gradient: linear-gradient(
+                    180deg,
+                    var(--bg) 65.57%,
+                    #3678c5 100%
+                  );
+                  --inner-gradient: linear-gradient(
+                    179.8deg,
+                    var(--bg) 42.21%,
+                    #304098 84.03%,
+                    #3cabef 99.82%
+                  );
+                "
+              >
+                <div class="icon-box">
+                  <img
+                    class="social-icon"
+                    src="./assets/facebook.png"
+                    alt="linkedin icon"
+                  />
+                  <img src="./assets/fb_hand.png" alt="fb_hand" />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- rights -->
+      </section>
+      <!-- footer section -->
+      <section id="footer">
+        <p>&copy; 2026 Portfolio. All Rights Reserved.</p>
+      </section>
+    </div>
+  </body>
+</html>
